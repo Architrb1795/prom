@@ -48,15 +48,16 @@ const Activities = () => {
     },
     {
       icon: (
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-          <path d="M5.5 8.5L9 12l-3.5 3.5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          <path d="M18.5 8.5L15 12l3.5 3.5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          <circle cx="9" cy="7" r="2" strokeWidth="2"/>
-          <circle cx="15" cy="7" r="2" strokeWidth="2"/>
-          <path d="M9 9v5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          <path d="M15 9v5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          <path d="M9 14c0 2.5 1.3 4 3 4s3-1.5 3-4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
+        <svg 
+  viewBox="0 0 24 24" 
+  fill="none" 
+  stroke="currentColor" 
+  strokeWidth="2" 
+  strokeLinecap="round" 
+  strokeLinejoin="round"
+>
+  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+</svg>
       ),
       title: 'Slow Dance Session',
       description: 'Create magical memories during our dedicated slow dance session, perfect for those romantic moments under the stars.'

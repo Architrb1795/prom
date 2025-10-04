@@ -44,7 +44,6 @@ const Hero = ({ onBookNow }) => {
     <span className="sponsor-divider">•</span>
     <span className="sponsor-name">Glamour Studios</span>
   </p>
-</div>
         </div>
         <div className="hero-badge">IIT Roorkee Presents</div>
         <h1 className="hero-title">

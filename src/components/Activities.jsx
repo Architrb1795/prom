@@ -26,10 +26,18 @@ const Activities = () => {
       description: 'Dance the night away with electrifying beats from professional DJs.'
     },
     {
-      icon: (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-      <path d="M3 2v7c0 1.1.9 2 2 2h4l-2 7h3l2-7h4l-2 7h3l2-7h2c1.1 0 2-.9 2-2V2H3z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-      <line x1="16" y1="2" x2="16" y2="7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    icon: (
+    <svg 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      strokeWidth="2" 
+      strokeLinecap="round" 
+      strokeLinejoin="round"
+    >
+      <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+      <path d="M7 2v20" />
+      <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3z" />
     </svg>
   ),
   title: 'Food & Refreshments',

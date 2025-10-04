@@ -39,12 +39,17 @@ const Hero = ({ onBookNow }) => {
       <div className="hero-content">
         <div className="hero-sponsors">
   <span className="sponsor-label">PROUDLY SPONSORED BY</span>
-  <p className="sponsor-names">
-    <span className="sponsor-name">Stellar Events Co.</span>
-    <span className="sponsor-divider">•</span>
-    <span className="sponsor-name">Glamour Studios</span>
-  </p>
-        </div>
+  <div className="sponsor-names">
+    <span className="sponsor-name">
+      <img src="https://i.postimg.cc/wTpqh3rH/Pindi-Bowl-Logo.png" alt="Stellar Events Co. Logo" />
+      Pindi Bowl
+    </span>
+    <span className="sponsor-name">
+      <img src="https://i.postimg.cc/6qHM582K/Test-Logo.png" alt="Glamour Studios Logo" />
+      Flowery Hues
+    </span>
+  </div>
+</div>
         <div className="hero-badge">IIT Roorkee Presents</div>
         <h1 className="hero-title">
           Prom Night

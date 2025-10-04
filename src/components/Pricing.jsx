@@ -65,7 +65,7 @@ const Pricing = ({ onBookNow }) => {
   rel="noopener noreferrer"
   className="pricing-button featured-button"
 >
-  Book Now!
+  Book Now!!!
 </a>
           </div>
         </div>

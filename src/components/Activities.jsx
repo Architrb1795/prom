@@ -35,9 +35,9 @@ const Activities = () => {
           <line x1="14" y1="1" x2="14" y2="4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       ),
-      title: 'Premium Dining',
-      description: 'Enjoy a lavish dinner with a curated menu of delicious cuisines.'
-    },
+      title: 'Food & Refreshments',
+      description: 'Refuel and recharge throughout the night with a variety of delicious food items and snacks available at the venue.'
+},
     {
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">

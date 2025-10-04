@@ -28,9 +28,8 @@ const Activities = () => {
     {
       icon: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-      <circle cx="12" cy="12" r="10" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-      <line x1="12" y1="2" x2="12" y2="12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-      <line x1="15" y1="9" x2="9" y2="15" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M3 2v7c0 1.1.9 2 2 2h4l-2 7h3l2-7h4l-2 7h3l2-7h2c1.1 0 2-.9 2-2V2H3z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      <line x1="16" y1="2" x2="16" y2="7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   ),
   title: 'Food & Refreshments',

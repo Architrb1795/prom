@@ -159,6 +159,7 @@
   display: block;
   text-align: center;
   color: #0a0a0a;
+  font-weight: bold;
 }
 
 .pricing-button:hover {

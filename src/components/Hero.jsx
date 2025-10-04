@@ -64,7 +64,11 @@ const Hero = ({ onBookNow }) => {
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               <circle cx="12" cy="10" r="3" strokeWidth="2"/>
             </svg>
-            <span>Mehta's Farm</span>
+            <span>
+              <a href="https://maps.app.goo.gl/Mi2BUNdJptombS7f9" target="_blank" rel="noopener noreferrer">
+                Mehta's Farm
+              </a>
+            </span>
           </div>
         </div>
 

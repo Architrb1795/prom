@@ -99,9 +99,14 @@ const Hero = ({ onBookNow }) => {
           </div>
         </div>
 
-        <button className="cta-button" onClick={onBookNow}>
-          Book Your Tickets Now
-        </button>
+        <a 
+  href="https://forms.gle/zuJKbjzM1ji9DVGC7" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="cta-button"
+>
+  Book Your Tickets Now
+</a>
       </div>
     </section>
   );

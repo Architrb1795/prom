@@ -185,11 +185,15 @@
   box-shadow: 0 10px 30px rgba(255, 105, 180, 0.4);
   text-transform: uppercase;
   letter-spacing: 1px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
 }
 
 .cta-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 15px 40px rgba(255, 105, 180, 0.5);
+  text-decoration: none;
 }
 
 .cta-button:active {

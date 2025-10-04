@@ -5,6 +5,7 @@ import Pricing from './components/Pricing';
 import BookingForm from './components/BookingForm';
 import FAQ from './components/FAQ';
 import Sponsors from './components/Sponsors';
+import Socials from './components/Socials';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Pricing onBookNow={() => setShowBookingForm(true)} />
       <FAQ />
       <Sponsors />
+      <Socials />
 
       {showBookingForm && (
         <BookingForm onClose={() => setShowBookingForm(false)} />

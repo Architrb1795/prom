@@ -36,37 +36,43 @@
 }
 
 .hero-sponsors {
-  margin-bottom: 1.5rem;
-  opacity: 0.9;
+  /* Aligns the content neatly in the center */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Adds space below the sponsors */
+  text-align: center;
 }
 
 .sponsor-label {
-  display: block;
-  font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.6);
+  /* Makes the "Sponsored by" text small and subtle */
+  font-size: 0.75rem; /* 12px */
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+  color: #ffffff; /* White color */
+  opacity: 0.7; /* Makes it slightly transparent */
+  margin-bottom: 8px; /* Space between label and names */
 }
 
 .sponsor-names {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
+  /* Styles the container for the sponsor names */
+  margin: 0;
+  padding: 0;
+  color: #ffffff; /* White color */
+  opacity: 0.85; /* Also slightly transparent */
 }
 
 .sponsor-name {
-  font-size: 0.875rem;
-  color: #ff69b4;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+  /* Reduces the main sponsor name size */
+  font-size: 1rem; /* 16px */
+  font-weight: 500; /* A medium weight, not too bold */
 }
 
 .sponsor-divider {
-  color: rgba(255, 255, 255, 0.3);
-  font-size: 0.75rem;
+  /* Styles the dot between the names */
+  margin: 0 10px; /* Adds space around the dot */
+  opacity: 0.6;
 }
 
 .hero-badge {

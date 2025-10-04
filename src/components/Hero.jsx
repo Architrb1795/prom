@@ -38,12 +38,13 @@ const Hero = ({ onBookNow }) => {
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <div className="hero-sponsors">
-          <span className="sponsor-label">Proudly Sponsored by</span>
-          <div className="sponsor-names">
-            <span className="sponsor-name">Stellar Events Co.</span>
-            <span className="sponsor-divider">•</span>
-            <span className="sponsor-name">Glamour Studios</span>
-          </div>
+  <span className="sponsor-label">PROUDLY SPONSORED BY</span>
+  <p className="sponsor-names">
+    <span className="sponsor-name">Stellar Events Co.</span>
+    <span className="sponsor-divider">•</span>
+    <span className="sponsor-name">Glamour Studios</span>
+  </p>
+</div>
         </div>
         <div className="hero-badge">IIT Roorkee Presents</div>
         <h1 className="hero-title">

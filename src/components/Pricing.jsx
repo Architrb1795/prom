@@ -13,46 +13,8 @@ const Pricing = ({ onBookNow }) => {
         </div>
 
         <div className="pricing-cards">
-          <div className="pricing-card">
-            <div className="pricing-badge">Single</div>
-            <div className="pricing-amount">
-              <span className="currency">₹</span>
-              <span className="price">649</span>
-              <span className="per-person">per person</span>
-            </div>
-            <ul className="pricing-features">
-              <li>
-                <svg className="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <polyline points="20 6 9 17 4 12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-                Entry to Prom Night
-              </li>
-              <li>
-                <svg className="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <polyline points="20 6 9 17 4 12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-                Premium Dining
-              </li>
-              <li>
-                <svg className="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <polyline points="20 6 9 17 4 12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-                Access to All Activities
-              </li>
-              <li>
-                <svg className="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <polyline points="20 6 9 17 4 12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-                Contest Participation
-              </li>
-            </ul>
-            <button className="pricing-button" onClick={onBookNow}>
-              Book Now
-            </button>
-          </div>
-
           <div className="pricing-card featured">
-            <div className="pricing-badge featured-badge">Couple</div>
+            <div className="pricing-badge featured-badge">Couple Entry</div>
             <div className="pricing-amount">
               <span className="currency">₹</span>
               <span className="price">649</span>
@@ -82,13 +44,19 @@ const Pricing = ({ onBookNow }) => {
                 <svg className="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                   <polyline points="20 6 9 17 4 12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                Contest Participation
+                Prom King & Queen Contest
               </li>
               <li>
                 <svg className="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                   <polyline points="20 6 9 17 4 12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
                 Priority Seating
+              </li>
+              <li>
+                <svg className="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <polyline points="20 6 9 17 4 12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                Professional Photography
               </li>
             </ul>
             <button className="pricing-button featured-button" onClick={onBookNow}>

@@ -8,6 +8,20 @@
   margin: 0 auto;
 }
 
+.activities-visual {
+  margin-bottom: 3rem;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(255, 105, 180, 0.2);
+}
+
+.activities-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
 .activities-header {
   text-align: center;
   margin-bottom: 4rem;
@@ -17,7 +31,7 @@
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-weight: 700;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #ffffff 0%, #ffd700 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ff69b4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -49,16 +63,16 @@
 
 .activity-card:hover {
   transform: translateY(-8px);
-  background: rgba(255, 215, 0, 0.05);
-  border-color: rgba(255, 215, 0, 0.3);
-  box-shadow: 0 20px 40px rgba(255, 215, 0, 0.1);
+  background: rgba(255, 105, 180, 0.08);
+  border-color: rgba(255, 105, 180, 0.4);
+  box-shadow: 0 20px 40px rgba(255, 105, 180, 0.15);
 }
 
 .activity-icon {
   width: 60px;
   height: 60px;
   margin-bottom: 1.5rem;
-  color: #ffd700;
+  color: #ff69b4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,8 +101,8 @@
   align-items: center;
   gap: 2rem;
   padding: 2.5rem;
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0.05) 100%);
-  border: 2px solid rgba(255, 215, 0, 0.3);
+  background: linear-gradient(135deg, rgba(255, 105, 180, 0.15) 0%, rgba(255, 105, 180, 0.08) 100%);
+  border: 2px solid rgba(255, 105, 180, 0.4);
   border-radius: 20px;
   backdrop-filter: blur(10px);
 }
@@ -96,7 +110,7 @@
 .prize-icon {
   width: 80px;
   height: 80px;
-  color: #ffd700;
+  color: #ff69b4;
   flex-shrink: 0;
 }
 
@@ -113,7 +127,7 @@
   font-size: 1.75rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  color: #ffd700;
+  color: #ff69b4;
 }
 
 .prize-description {

@@ -55,6 +55,13 @@ const Activities = () => {
   return (
     <section className="activities" id="activities">
       <div className="activities-container">
+        <div className="activities-visual">
+          <img
+            src="https://images.pexels.com/photos/3171815/pexels-photo-3171815.jpeg?auto=compress&cs=tinysrgb&w=800"
+            alt="Prom celebration"
+            className="activities-image"
+          />
+        </div>
         <div className="activities-header">
           <h2 className="activities-title">An Unforgettable Evening</h2>
           <p className="activities-subtitle">

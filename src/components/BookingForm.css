@@ -26,7 +26,7 @@
   max-width: 600px;
   max-height: 90vh;
   background: linear-gradient(135deg, rgba(26, 26, 46, 0.95) 0%, rgba(10, 10, 10, 0.95) 100%);
-  border: 1px solid rgba(255, 215, 0, 0.2);
+  border: 1px solid rgba(255, 105, 180, 0.3);
   border-radius: 24px;
   padding: 3rem;
   overflow-y: auto;
@@ -62,8 +62,8 @@
 }
 
 .close-button:hover {
-  background: rgba(255, 215, 0, 0.2);
-  border-color: rgba(255, 215, 0, 0.4);
+  background: rgba(255, 105, 180, 0.2);
+  border-color: rgba(255, 105, 180, 0.4);
 }
 
 .close-button svg {
@@ -79,7 +79,7 @@
 .booking-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #ffd700;
+  color: #ff69b4;
   margin-bottom: 0.5rem;
 }
 
@@ -94,45 +94,6 @@
   gap: 2rem;
 }
 
-.booking-type-selector {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-.type-button {
-  padding: 1.5rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  border-radius: 16px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.type-button:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 215, 0, 0.3);
-}
-
-.type-button.active {
-  background: rgba(255, 215, 0, 0.1);
-  border-color: rgba(255, 215, 0, 0.5);
-}
-
-.type-label {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: #ffffff;
-  margin-bottom: 0.5rem;
-}
-
-.type-price {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #ffd700;
-}
-
 .form-section {
   display: flex;
   flex-direction: column;
@@ -142,7 +103,7 @@
 .section-title {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #ffd700;
+  color: #ff69b4;
   margin-bottom: 0.5rem;
 }
 
@@ -173,7 +134,7 @@
 .form-group input:focus {
   outline: none;
   background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 215, 0, 0.5);
+  border-color: rgba(255, 105, 180, 0.5);
 }
 
 .form-group input.error {
@@ -190,8 +151,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
-  background: rgba(255, 215, 0, 0.1);
-  border: 1px solid rgba(255, 215, 0, 0.3);
+  background: rgba(255, 105, 180, 0.15);
+  border: 1px solid rgba(255, 105, 180, 0.4);
   border-radius: 16px;
 }
 
@@ -204,12 +165,12 @@
 .total-amount {
   font-size: 2rem;
   font-weight: 700;
-  color: #ffd700;
+  color: #ff69b4;
 }
 
 .submit-button {
   padding: 1.25rem;
-  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  background: linear-gradient(135deg, #ff69b4 0%, #ff8fd4 100%);
   border: none;
   border-radius: 12px;
   color: #0a0a0a;
@@ -219,12 +180,12 @@
   letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 8px 24px rgba(255, 215, 0, 0.3);
+  box-shadow: 0 8px 24px rgba(255, 105, 180, 0.4);
 }
 
 .submit-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 32px rgba(255, 215, 0, 0.4);
+  box-shadow: 0 12px 32px rgba(255, 105, 180, 0.5);
 }
 
 .submit-button:active {
@@ -239,10 +200,6 @@
 
   .booking-title {
     font-size: 1.5rem;
-  }
-
-  .booking-type-selector {
-    grid-template-columns: 1fr;
   }
 
   .close-button {

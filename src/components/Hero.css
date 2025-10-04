@@ -6,20 +6,31 @@
   justify-content: center;
   padding: 2rem;
   overflow: hidden;
-  background: radial-gradient(circle at 50% 50%, rgba(255, 215, 0, 0.1) 0%, transparent 50%),
-              linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+  background: radial-gradient(circle at 50% 50%, rgba(255, 105, 180, 0.15) 0%, transparent 50%),
+              linear-gradient(135deg, #1a0a1e 0%, #2a1a3e 100%);
+}
+
+.hero-background-image {
+  position: absolute;
+  inset: 0;
+  background-image: url('https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1920');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15;
+  z-index: 0;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(255,215,0,0.05)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
-  opacity: 0.5;
+  background: linear-gradient(135deg, rgba(26, 10, 30, 0.85) 0%, rgba(42, 26, 62, 0.9) 100%),
+              url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(255,105,180,0.08)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+  z-index: 1;
 }
 
 .hero-content {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   text-align: center;
   max-width: 900px;
 }
@@ -27,10 +38,10 @@
 .hero-badge {
   display: inline-block;
   padding: 0.5rem 1.5rem;
-  background: rgba(255, 215, 0, 0.1);
-  border: 1px solid rgba(255, 215, 0, 0.3);
+  background: rgba(255, 105, 180, 0.15);
+  border: 1px solid rgba(255, 105, 180, 0.4);
   border-radius: 50px;
-  color: #ffd700;
+  color: #ff69b4;
   font-size: 0.875rem;
   font-weight: 500;
   letter-spacing: 1px;
@@ -43,7 +54,7 @@
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #ffffff 0%, #ffd700 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ff69b4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -54,8 +65,8 @@
 
 .hero-year {
   font-size: clamp(2rem, 8vw, 4rem);
-  color: #ffd700;
-  -webkit-text-fill-color: #ffd700;
+  color: #ff69b4;
+  -webkit-text-fill-color: #ff69b4;
 }
 
 .hero-details {
@@ -83,7 +94,7 @@
 .detail-icon {
   width: 24px;
   height: 24px;
-  color: #ffd700;
+  color: #ff69b4;
 }
 
 .countdown {
@@ -100,16 +111,16 @@
   align-items: center;
   padding: 1.5rem;
   min-width: 100px;
-  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0.05) 100%);
+  background: linear-gradient(135deg, rgba(255, 105, 180, 0.15) 0%, rgba(255, 105, 180, 0.08) 100%);
   border-radius: 16px;
-  border: 1px solid rgba(255, 215, 0, 0.2);
+  border: 1px solid rgba(255, 105, 180, 0.3);
   backdrop-filter: blur(10px);
 }
 
 .countdown-value {
   font-size: 3rem;
   font-weight: 700;
-  color: #ffd700;
+  color: #ff69b4;
   line-height: 1;
   margin-bottom: 0.5rem;
 }
@@ -126,19 +137,19 @@
   font-size: 1.125rem;
   font-weight: 600;
   color: #0a0a0a;
-  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  background: linear-gradient(135deg, #ff69b4 0%, #ff8fd4 100%);
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+  box-shadow: 0 10px 30px rgba(255, 105, 180, 0.4);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .cta-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 15px 40px rgba(255, 215, 0, 0.4);
+  box-shadow: 0 15px 40px rgba(255, 105, 180, 0.5);
 }
 
 .cta-button:active {

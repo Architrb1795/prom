@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './BookingForm.css';
 
 const BookingForm = ({ onClose }) => {
-  const [bookingType, setBookingType] = useState('single');
   const [formData, setFormData] = useState({
     maleName: '',
     maleEnrollment: '',
@@ -37,13 +36,12 @@ const BookingForm = ({ onClose }) => {
       newErrors.maleEnrollment = 'Enrollment number is required';
     }
 
-    if (bookingType === 'couple') {
-      if (!formData.femaleName.trim()) {
-        newErrors.femaleName = 'Partner name is required';
-      }
-      if (!formData.femaleEnrollment.trim()) {
-        newErrors.femaleEnrollment = 'Partner enrollment number is required';
-      }
+    if (!formData.femaleName.trim()) {
+      newErrors.femaleName = 'Partner name is required';
+    }
+
+    if (!formData.femaleEnrollment.trim()) {
+      newErrors.femaleEnrollment = 'Partner enrollment number is required';
     }
 
     if (!formData.mobileNumber.trim()) {
@@ -60,8 +58,7 @@ const BookingForm = ({ onClose }) => {
     e.preventDefault();
 
     if (validateForm()) {
-      const totalPrice = bookingType === 'couple' ? 1299 : 649;
-      alert(`Booking confirmed!\nType: ${bookingType}\nTotal: ₹${totalPrice}\n\nThank you for booking!`);
+      alert(`Booking confirmed!\nTotal: ₹1299 (₹649 per person)\n\nThank you for booking!`);
       onClose();
     }
   };
@@ -83,32 +80,13 @@ const BookingForm = ({ onClose }) => {
         </button>
 
         <div className="booking-header">
-          <h2 className="booking-title">Book Your Tickets</h2>
-          <p className="booking-subtitle">Fill in your details to reserve your spot</p>
+          <h2 className="booking-title">Book Your Couple Tickets</h2>
+          <p className="booking-subtitle">₹1299 for couple (₹649 per person)</p>
         </div>
 
         <form onSubmit={handleSubmit} className="booking-form">
-          <div className="booking-type-selector">
-            <button
-              type="button"
-              className={`type-button ${bookingType === 'single' ? 'active' : ''}`}
-              onClick={() => setBookingType('single')}
-            >
-              <div className="type-label">Single</div>
-              <div className="type-price">₹649</div>
-            </button>
-            <button
-              type="button"
-              className={`type-button ${bookingType === 'couple' ? 'active' : ''}`}
-              onClick={() => setBookingType('couple')}
-            >
-              <div className="type-label">Couple</div>
-              <div className="type-price">₹1299</div>
-            </button>
-          </div>
-
           <div className="form-section">
-            <h3 className="section-title">Primary Details</h3>
+            <h3 className="section-title">Person 1 Details</h3>
             <div className="form-group">
               <label htmlFor="maleName">Name</label>
               <input
@@ -136,9 +114,8 @@ const BookingForm = ({ onClose }) => {
             </div>
           </div>
 
-          {bookingType === 'couple' && (
-            <div className="form-section">
-              <h3 className="section-title">Partner Details</h3>
+          <div className="form-section">
+            <h3 className="section-title">Person 2 Details</h3>
               <div className="form-group">
                 <label htmlFor="femaleName">Partner Name</label>
                 <input
@@ -165,7 +142,6 @@ const BookingForm = ({ onClose }) => {
                 {errors.femaleEnrollment && <span className="error-message">{errors.femaleEnrollment}</span>}
               </div>
             </div>
-          )}
 
           <div className="form-section">
             <h3 className="section-title">Contact Information</h3>
@@ -186,7 +162,7 @@ const BookingForm = ({ onClose }) => {
 
           <div className="total-section">
             <span className="total-label">Total Amount:</span>
-            <span className="total-amount">₹{bookingType === 'couple' ? '1299' : '649'}</span>
+            <span className="total-amount">₹1299</span>
           </div>
 
           <button type="submit" className="submit-button">

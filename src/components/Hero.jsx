@@ -34,6 +34,7 @@ const Hero = ({ onBookNow }) => {
 
   return (
     <section className="hero">
+      <div className="hero-background-image"></div>
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <div className="hero-badge">IIT Roorkee Presents</div>

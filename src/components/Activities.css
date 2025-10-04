@@ -1,0 +1,149 @@
+.activities {
+  padding: 6rem 2rem;
+  background: linear-gradient(180deg, rgba(26, 26, 46, 0.5) 0%, rgba(10, 10, 10, 0.8) 100%);
+}
+
+.activities-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.activities-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.activities-title {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #ffffff 0%, #ffd700 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.activities-subtitle {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.activity-card {
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.activity-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 215, 0, 0.05);
+  border-color: rgba(255, 215, 0, 0.3);
+  box-shadow: 0 20px 40px rgba(255, 215, 0, 0.1);
+}
+
+.activity-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1.5rem;
+  color: #ffd700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activity-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.activity-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.activity-description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.prize-banner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0.05) 100%);
+  border: 2px solid rgba(255, 215, 0, 0.3);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.prize-icon {
+  width: 80px;
+  height: 80px;
+  color: #ffd700;
+  flex-shrink: 0;
+}
+
+.prize-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.prize-content {
+  flex: 1;
+}
+
+.prize-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #ffd700;
+}
+
+.prize-description {
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .activities {
+    padding: 4rem 1rem;
+  }
+
+  .activities-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .activity-card {
+    padding: 2rem;
+  }
+
+  .prize-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .prize-icon {
+    width: 60px;
+    height: 60px;
+  }
+}

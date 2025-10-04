@@ -1,0 +1,252 @@
+.booking-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+  backdrop-filter: blur(8px);
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.booking-modal {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  max-height: 90vh;
+  background: linear-gradient(135deg, rgba(26, 26, 46, 0.95) 0%, rgba(10, 10, 10, 0.95) 100%);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  border-radius: 24px;
+  padding: 3rem;
+  overflow-y: auto;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.close-button {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.close-button:hover {
+  background: rgba(255, 215, 0, 0.2);
+  border-color: rgba(255, 215, 0, 0.4);
+}
+
+.close-button svg {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+}
+
+.booking-header {
+  margin-bottom: 2rem;
+}
+
+.booking-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffd700;
+  margin-bottom: 0.5rem;
+}
+
+.booking-subtitle {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.booking-type-selector {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.type-button {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.type-button:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 215, 0, 0.3);
+}
+
+.type-button.active {
+  background: rgba(255, 215, 0, 0.1);
+  border-color: rgba(255, 215, 0, 0.5);
+}
+
+.type-label {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.type-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffd700;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffd700;
+  margin-bottom: 0.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-group input {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 215, 0, 0.5);
+}
+
+.form-group input.error {
+  border-color: #ff4444;
+}
+
+.error-message {
+  font-size: 0.875rem;
+  color: #ff4444;
+}
+
+.total-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background: rgba(255, 215, 0, 0.1);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  border-radius: 16px;
+}
+
+.total-label {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.total-amount {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffd700;
+}
+
+.submit-button {
+  padding: 1.25rem;
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  border: none;
+  border-radius: 12px;
+  color: #0a0a0a;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 24px rgba(255, 215, 0, 0.3);
+}
+
+.submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(255, 215, 0, 0.4);
+}
+
+.submit-button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .booking-modal {
+    padding: 2rem;
+    max-height: 95vh;
+  }
+
+  .booking-title {
+    font-size: 1.5rem;
+  }
+
+  .booking-type-selector {
+    grid-template-columns: 1fr;
+  }
+
+  .close-button {
+    top: 1rem;
+    right: 1rem;
+  }
+}

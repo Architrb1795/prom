@@ -1,0 +1,98 @@
+import React from 'react';
+import './Activities.css';
+
+const Activities = () => {
+  const activities = [
+    {
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M12 2L2 7l10 5 10-5-10-5z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M2 17l10 5 10-5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M2 12l10 5 10-5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      ),
+      title: 'Prom King & Queen Contest',
+      description: 'Compete for the crown and win exclusive gifts. Show your style and charisma on stage.'
+    },
+    {
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M9 18V5l12-2v13" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <circle cx="6" cy="18" r="3" strokeWidth="2"/>
+          <circle cx="18" cy="16" r="3" strokeWidth="2"/>
+        </svg>
+      ),
+      title: 'Live DJ Performance',
+      description: 'Dance the night away with electrifying beats from professional DJs.'
+    },
+    {
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M18 8h1a4 4 0 0 1 0 8h-1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <line x1="6" y1="1" x2="6" y2="4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <line x1="10" y1="1" x2="10" y2="4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <line x1="14" y1="1" x2="14" y2="4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      ),
+      title: 'Premium Dining',
+      description: 'Enjoy a lavish dinner with a curated menu of delicious cuisines.'
+    },
+    {
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <circle cx="12" cy="12" r="10" strokeWidth="2"/>
+          <path d="M8 14s1.5 2 4 2 4-2 4-2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <line x1="9" y1="9" x2="9.01" y2="9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <line x1="15" y1="9" x2="15.01" y2="9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      ),
+      title: 'Fun Games',
+      description: 'Participate in exciting games and activities throughout the evening.'
+    }
+  ];
+
+  return (
+    <section className="activities" id="activities">
+      <div className="activities-container">
+        <div className="activities-header">
+          <h2 className="activities-title">An Unforgettable Evening</h2>
+          <p className="activities-subtitle">
+            Experience a night filled with glamour, entertainment, and memories that will last forever
+          </p>
+        </div>
+
+        <div className="activities-grid">
+          {activities.map((activity, index) => (
+            <div key={index} className="activity-card">
+              <div className="activity-icon">{activity.icon}</div>
+              <h3 className="activity-title">{activity.title}</h3>
+              <p className="activity-description">{activity.description}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="prize-banner">
+          <div className="prize-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M4 22h16" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M18 2H6v7a6 6 0 0 0 12 0V2z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </div>
+          <div className="prize-content">
+            <h3 className="prize-title">Exclusive Gifts for Winners</h3>
+            <p className="prize-description">
+              The Prom King and Queen will receive special gifts and recognition
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Activities;

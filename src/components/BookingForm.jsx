@@ -58,8 +58,8 @@ const BookingForm = ({ onClose }) => {
     e.preventDefault();
 
     if (validateForm()) {
-      alert(`Booking confirmed!\nTotal: ₹1299 (₹649 per person)\n\nThank you for booking!`);
-      onClose();
+      console.log("Form is valid, redirecting...");
+      window.location.href = 'https://forms.gle/Mi9YBf8v7deGsfCx9';
     }
   };
 

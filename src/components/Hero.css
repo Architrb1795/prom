@@ -36,43 +36,43 @@
 }
 
 .hero-sponsors {
-  /* Aligns the content neatly in the center */
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px; /* Adds space below the sponsors */
-  text-align: center;
 }
 
 .sponsor-label {
-  /* Makes the "Sponsored by" text small and subtle */
-  font-size: 0.75rem; /* 12px */
-  font-weight: 600;
+  font-size: 0.65rem;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #ffffff; /* White color */
-  opacity: 0.7; /* Makes it slightly transparent */
-  margin-bottom: 8px; /* Space between label and names */
+  opacity: 0.6;
+  margin-bottom: 10px;
 }
 
 .sponsor-names {
-  /* Styles the container for the sponsor names */
-  margin: 0;
-  padding: 0;
-  color: #ffffff; /* White color */
-  opacity: 0.85; /* Also slightly transparent */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .sponsor-name {
-  /* Reduces the main sponsor name size */
-  font-size: 1rem; /* 16px */
-  font-weight: 500; /* A medium weight, not too bold */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0.8;
 }
 
-.sponsor-divider {
-  /* Styles the dot between the names */
-  margin: 0 10px; /* Adds space around the dot */
-  opacity: 0.6;
+.sponsor-name img {
+  height: 20px;
+  width: auto;
+  filter: brightness(0) invert(1) opacity(0.8);
 }
 
 .hero-badge {

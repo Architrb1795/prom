@@ -6,6 +6,14 @@ const FAQ = () => {
 
   const faqs = [
     {
+      question: 'Is there a deadline for booking tickets?',
+      answer: 'While there is no strict deadline, tickets are limited and are being sold on a first-come, first-served basis. We expect the slots to fill up very quickly, so we highly recommend you book your tickets as soon as possible to avoid disappointment.'
+    },
+    {
+      question: 'What time should I arrive at the venue?',
+      answer: 'Gates open at 5:30 PM. We recommend arriving by 6:00 PM to complete registration and settle in before the main event begins.'
+    },
+    {
       question: 'What is the dress code for the prom?',
       answer: 'The dress code is formal. Gentlemen are expected to wear suits or formal ethnic wear, while ladies should wear gowns, cocktail dresses, or formal ethnic attire.'
     },
@@ -14,24 +22,24 @@ const FAQ = () => {
       answer: 'Tickets are non-refundable. However, you can transfer your ticket to another IIT Roorkee student by contacting the organizing team at least 3 days before the event.'
     },
     {
-      question: 'Is outside food and beverages allowed?',
-      answer: 'No, outside food and beverages are not permitted. A premium dining experience with multiple cuisines will be provided as part of your ticket.'
+      question: 'Is re-entry allowed if I leave the venue?',
+      answer: 'No, re-entry will not be permitted. For the safety and security of all our guests, we will be enforcing a strict no re-entry policy. Please make sure you have everything you need with you before you enter the venue.'
     },
     {
       question: 'How do I participate in the Prom King and Queen contest?',
       answer: 'All attendees are automatically eligible for the Prom King and Queen contest. Winners will be selected through a combination of audience voting and judges\' decision during the event.'
     },
     {
-      question: 'What time should I arrive at the venue?',
-      answer: 'Gates open at 5:30 PM. We recommend arriving by 6:00 PM to complete registration and settle in before the main event begins.'
-    },
-    {
-      question: 'Is parking available at Mehta\'s Farm?',
-      answer: 'Yes, ample parking space is available at the venue. However, we encourage carpooling or using shared transportation for convenience.'
-    },
-    {
       question: 'What should I bring to the event?',
       answer: 'Please bring a valid college ID card for entry verification. Also carry your booking confirmation (digital or printed) and any personal essentials you might need.'
+    },
+    {
+      question: 'Will there be a professional photographer?',
+      answer: 'We will not have a dedicated event photographer. However, we have set up a special photo booth/photo corner with great lighting and fun props for you to capture all your memorable moments with your friends. Don\'t forget to bring your phones to click amazing pictures!'
+    },
+    {
+      question: 'Will there be transportation available to and from the venue?',
+      answer: 'Yes, we have made arrangements for your convenience. While you will need to arrange your own transport to the prom, we will have autos available late at night to ensure everyone has a safe and reliable way to get back to campus after the event concludes.'
     }
   ];
 

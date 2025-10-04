@@ -59,9 +59,14 @@ const Pricing = ({ onBookNow }) => {
                 Aesthetic Photo Corner
               </li>
             </ul>
-            <button className="pricing-button featured-button" onClick={onBookNow}>
-              Book Now
-            </button>
+            <a 
+  href="https://forms.gle/ouzHWwYV3k1TRfM18" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="pricing-button featured-button"
+>
+  Book Now
+</a>
           </div>
         </div>
       </div>

@@ -35,7 +35,15 @@ const Activities = () => {
       strokeLinecap="round" 
       strokeLinejoin="round"
     >
-      <path d="M12 2C10 2 9 3 9 4v1a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2V4c0-1-1-2-2-2h-2zM7 16l-3 4V22h14v-2l-3-4M10 10v4M14 10v4"/>
+      {/* This is the fork part - it was mostly correct */}
+      <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+      <path d="M7 2v20" /> {/* This is the long handle for the fork */}
+
+      {/* This is the corrected knife part - adjusted to show the full handle */}
+      {/* Path for the blade of the knife */}
+      <path d="M21 2L15 8v13h6z" />
+      {/* Path for the handle of the knife */}
+      <path d="M18 8v14" /> 
     </svg>
   ),
   title: 'Food & Refreshments',

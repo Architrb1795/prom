@@ -25,28 +25,42 @@ const Activities = () => {
       title: 'Live DJ Performance',
       description: 'Dance the night away with electrifying beats from professional DJs.'
     },
-   {
-  icon: (
-    <svg 
-      viewBox="0 0 24 24" 
-      fill="none" 
-      stroke="currentColor" 
-      strokeWidth="2" 
-      strokeLinecap="round" 
-      strokeLinejoin="round"
-    >
-      {/* Fork part (as it was before, seemed okay) */}
-      <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
-      <path d="M7 2v20" /> 
-
-      {/* Corrected Knife part: Redesigned for clarity */}
-      {/* This path creates a clean blade and a distinct, simple handle */}
-      <path d="M15 2l5 5v15h-5V2z" />
-    </svg>
-  ),
-  title: 'Food & Refreshments',
-  description: 'Refuel and recharge throughout the night with a variety of delicious food items and snacks available at the venue.'
-},
+    {
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M7 2v20" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      ),
+      title: 'Food & Refreshments',
+      description: 'Refuel and recharge throughout the night with a variety of delicious food items and snacks available at the venue.'
+    },
+    {
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <circle cx="12" cy="13" r="4" strokeWidth="2"/>
+        </svg>
+      ),
+      title: 'Themed Photo Booth',
+      description: 'Capture picture-perfect moments with your friends in our professionally styled photo booth featuring custom backdrops and props.'
+    },
+    {
+      icon: (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M5.5 8.5L9 12l-3.5 3.5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M18.5 8.5L15 12l3.5 3.5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <circle cx="9" cy="7" r="2" strokeWidth="2"/>
+          <circle cx="15" cy="7" r="2" strokeWidth="2"/>
+          <path d="M9 9v5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M15 9v5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M9 14c0 2.5 1.3 4 3 4s3-1.5 3-4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      ),
+      title: 'Slow Dance Session',
+      description: 'Create magical memories during our dedicated slow dance session, perfect for those romantic moments under the stars.'
+    },
     {
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">

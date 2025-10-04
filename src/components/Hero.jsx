@@ -40,14 +40,25 @@ const Hero = ({ onBookNow }) => {
         <div className="hero-sponsors">
   <span className="sponsor-label">PROUDLY SPONSORED BY</span>
   <div className="sponsor-names">
-    <span className="sponsor-name">
-      <img src="https://i.postimg.cc/wTpqh3rH/Pindi-Bowl-Logo.png" alt="Stellar Events Co. Logo" />
-      Pindi Bowl
-    </span>
-    <span className="sponsor-name">
-      <img src="https://i.postimg.cc/6qHM582K/Test-Logo.png" alt="Glamour Studios Logo" />
-      Flowery Hues
-    </span>
+    <a 
+  href="https://www.zomato.com/roorkee/the-pindi-bowl-1-roorkee-locality/order" 
+  className="sponsor-name" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <img src="https://i.postimg.cc/wTpqh3rH/Pindi-Bowl-Logo.png" alt="Pindi Bowl Logo" />
+  Pindi Bowl
+</a>
+
+<a 
+  href="https://maps.app.goo.gl/FNcr4reQ6RpUnq2i9" 
+  className="sponsor-name" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <img src="https://i.postimg.cc/6qHM582K/Test-Logo.png" alt="Flowery Hues Logo" />
+  Flowery Hues
+</a>
   </div>
 </div>
         <div className="hero-badge">IIT Roorkee Presents</div>

@@ -56,7 +56,7 @@ const Pricing = ({ onBookNow }) => {
                 <svg className="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                   <polyline points="20 6 9 17 4 12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                Professional Photography
+                Aesthetic Photo Corner
               </li>
             </ul>
             <button className="pricing-button featured-button" onClick={onBookNow}>

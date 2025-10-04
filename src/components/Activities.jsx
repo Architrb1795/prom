@@ -35,15 +35,13 @@ const Activities = () => {
       strokeLinecap="round" 
       strokeLinejoin="round"
     >
-      {/* This is the fork part - it was mostly correct */}
+      {/* Fork part (as it was before, seemed okay) */}
       <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
-      <path d="M7 2v20" /> {/* This is the long handle for the fork */}
+      <path d="M7 2v20" /> 
 
-      {/* This is the corrected knife part - adjusted to show the full handle */}
-      {/* Path for the blade of the knife */}
-      <path d="M21 2L15 8v13h6z" />
-      {/* Path for the handle of the knife */}
-      <path d="M18 8v14" /> 
+      {/* Corrected Knife part: Redesigned for clarity */}
+      {/* This path creates a clean blade and a distinct, simple handle */}
+      <path d="M15 2l5 5v15h-5V2z" />
     </svg>
   ),
   title: 'Food & Refreshments',

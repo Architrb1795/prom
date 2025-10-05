@@ -18,3 +18,23 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* --- Custom Scrollbar Styles --- */
+
+/* This works for Chrome, Edge, Safari, and other WebKit-based browsers */
+::-webkit-scrollbar {
+  width: 10px; /* Sets the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a2e; /* Sets the background of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff69b4; /* Sets the color of the draggable handle */
+  border-radius: 10px; /* Rounds the corners of the handle */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff8fd4; /* Makes the handle slightly lighter on hover */
+}

@@ -10,7 +10,7 @@ const Socials = () => {
           Follow us on Instagram for updates, behind-the-scenes content, and memories from the night
         </p>
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/iitroorkeefresher2025/"
           target="_blank"
           rel="noopener noreferrer"
           className="instagram-link"

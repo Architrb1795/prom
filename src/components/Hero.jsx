@@ -56,8 +56,8 @@ const Hero = ({ onBookNow }) => {
   target="_blank" 
   rel="noopener noreferrer"
 >
-  <img src="https://i.postimg.cc/MGTHg0v0/Flowery-Hues-Logo.png" alt="Flowery Hues Logo" />
   Flowery Hues
+  <img src="https://i.postimg.cc/MGTHg0v0/Flowery-Hues-Logo.png" alt="Flowery Hues Logo" />
 </a>
   </div>
 </div>

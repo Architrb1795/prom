@@ -86,7 +86,7 @@ const FAQ = () => {
 
       <footer className="footer">
         <div className="footer-content">
-          <div className="footer-logo">IIT Roorkee Prom 2025</div>
+          <div className="footer-logo">Prom 2025</div>
           <p className="footer-text">
             An evening of elegance, entertainment, and unforgettable memories
           </p>
@@ -96,7 +96,7 @@ const FAQ = () => {
             <a href="#faq">FAQ</a>
           </div>
           <p className="footer-copyright">
-            © 2025 IIT Roorkee. All rights reserved.
+            © 2025 Prom Night 2025. All rights reserved.
           </p>
         </div>
       </footer>

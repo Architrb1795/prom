@@ -34,7 +34,7 @@ const Pricing = () => {
             {/* Updated Couple Price */}
             <div className="couple-price">
               <span className="currency">₹</span>
-              <span className="new-couple-price"> ₹1099 for couple</span>
+              <span className="new-couple-price"> 1099 for couple</span>
             </div>
 
             <ul className="pricing-features">

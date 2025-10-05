@@ -15,12 +15,30 @@ const Pricing = ({ onBookNow }) => {
         <div className="pricing-cards">
           <div className="pricing-card featured">
             <div className="pricing-badge featured-badge">Couple Entry</div>
-            <div className="pricing-amount">
-              <span className="currency">₹</span>
-              <span className="price">649</span>
-              <span className="per-person">per person</span>
-            </div>
-            <div className="couple-price">₹1299 for couple</div>
+            <div className="pricing-card featured">
+  <div className="pricing-badge featured-badge">Couple Entry</div>
+
+  {/* NEW: Offer Price Section */}
+  <div className="offer-section">
+    <div className="old-pricing-amount">
+      <span className="currency">₹</span>
+      <span className="old-price-strike">649</span> {/* Old price with strikethrough */}
+      <span className="per-person-strike">per person</span>
+    </div>
+    <div className="pricing-amount">
+      <span className="currency">₹</span>
+      <span className="price">549</span> {/* New offer price */}
+      <span className="per-person">per person</span>
+    </div>
+    <div className="offer-text">For the first 30 couples only!</div>
+  </div>
+
+  {/* NEW: Updated Couple Price */}
+  <div className="couple-price">
+    <span className="currency">₹</span>
+    <span className="old-couple-price-strike">1299</span> {/* Old couple price with strikethrough */}
+    <span className="new-couple-price"> ₹1099 for couple</span> {/* New couple price */}
+  </div>
             <ul className="pricing-features">
               <li>
                 <svg className="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">

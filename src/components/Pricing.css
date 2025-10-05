@@ -116,7 +116,7 @@
 
 .pricing-features {
   list-style: none;
-  margin: 2rem 0;
+  margin: 1rem 0;
   flex-grow: 1;
 }
 
@@ -235,7 +235,7 @@
 .couple-price {
   font-size: 1.1rem; /* Bumps up the size a bit */
   color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-style: normal; /* Removes italics to match new style */
 }
 

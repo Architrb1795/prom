@@ -100,9 +100,14 @@ const FAQ = () => {
   <p className="contact-text">
     For any queries or sponsorship details, feel free to reach out to us.
   </p>
-  <a href="mailto:promnight.contact@example.com" className="contact-email">
-    prom2025iitr@gmail.com
-  </a>
+  <a 
+  href="http://googleusercontent.com/mail.google.com/8" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="contact-email"
+>
+  prom2025iitr@gmail.com
+</a>
 </div>
           <p className="footer-copyright">
             © 2025 Prom Night 2025. All rights reserved.

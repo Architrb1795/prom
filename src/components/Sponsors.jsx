@@ -6,8 +6,13 @@ const Sponsors = () => {
     {
       name: 'The Pindi Bowl',
       logo: (
+        // New Ramen Bowl Icon
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M4 11h16a1 1 0 0 1 1 1v4a6 6 0 0 1-12 4v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a6 6 0 0 1-12-4v-4a1 1 0 0 1 1-1h2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M6 6s-2 2-2 4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M10 6s-2 2-2 4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M14 6s-2 2-2 4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M18 6s-2 2-2 4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       ),
       description: 'Specializing in a wide array of savory bowl cuisines, ensuring every meal is served with passion and love.'
@@ -15,10 +20,12 @@ const Sponsors = () => {
     {
       name: 'Flowery Hues',
       logo: (
+        // New Perfume Bottle Icon
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-          <circle cx="12" cy="12" r="10" strokeWidth="2"/>
-          <path d="M12 6v6l4 2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          <circle cx="12" cy="12" r="2" fill="currentColor"/>
+          <path d="M16 3h-8v4l-2 2v10h12V9l-2-2V3z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M10 3v4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M14 3v4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       ),
       description: 'Define your style and express your essence. Flowery Hues offers unique fragrances for an unforgettable evening.'

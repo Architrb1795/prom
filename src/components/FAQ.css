@@ -180,3 +180,37 @@
     gap: 1rem;
   }
 }
+
+.footer-contact {
+  text-align: center;
+  margin-top: 3rem; /* Space above the contact section */
+  margin-bottom: 3rem; /* Space below */
+  padding-top: 3rem; /* Space inside the top border */
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* A subtle dividing line */
+}
+
+.contact-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0.5rem;
+}
+
+.contact-text {
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 400px;
+  margin: 0 auto 1rem; /* Centers the text block */
+}
+
+.contact-email {
+  color: #ff69b4; /* Your theme's pink color */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+}
+
+.contact-email:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}

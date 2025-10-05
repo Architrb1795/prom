@@ -72,7 +72,7 @@
   
   /* Preserves the original shape of the logo */
   width: auto;
-  height: auto;
+  height: 30;
   
   /* Optional: Makes dark logos white to match the theme */
   filter: brightness(0) invert(1);

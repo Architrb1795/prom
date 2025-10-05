@@ -1,7 +1,8 @@
 import React from 'react';
-import './Sponsors.css';
+import './Sponsors.css'; // Make sure you have a CSS file for styling
 
-const sponsors = [
+const Sponsors = () => {
+  const sponsors = [
     {
       name: 'The Pindi Bowl',
       // The 'logo' property is now the URL to the image
@@ -17,30 +18,18 @@ const sponsors = [
   ];
 
   return (
-    <section className="sponsors" id="sponsors">
+    <section className="sponsors-section">
       <div className="sponsors-container">
-        <div className="sponsors-header">
-          <h2 className="sponsors-title">Our Sponsors</h2>
-          <p className="sponsors-subtitle">
-            A heartfelt thank you to our amazing sponsors who make this night possible
-          </p>
-        </div>
-
-        <div className="sponsors-grid">
-          {sponsors.map((sponsor, index) => (
-            <div key={index} className="sponsor-card">
-              <div className="sponsor-logo">{sponsor.logo}</div>
-              <h3 className="sponsor-name">{sponsor.name}</h3>
-              <p className="sponsor-description">{sponsor.description}</p>
+        {sponsors.map((sponsor, index) => (
+          <div className="sponsor-card" key={index}>
+            <div className="sponsor-logo-container">
+              {/* Use an <img> tag to display the logo from the URL */}
+              <img src={sponsor.logo} alt={`${sponsor.name} Logo`} className="sponsor-logo" />
             </div>
-          ))}
-        </div>
-
-        <div className="sponsors-footer">
-          <p className="sponsors-footer-text">
-            Interested in sponsoring future events? Contact us to learn more about partnership opportunities.
-          </p>
-        </div>
+            <h3 className="sponsor-name">{sponsor.name}</h3>
+            <p className="sponsor-description">{sponsor.description}</p>
+          </div>
+        ))}
       </div>
     </section>
   );

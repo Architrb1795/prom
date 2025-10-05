@@ -13,7 +13,7 @@ const Sponsors = () => {
       description: 'Premier event management and production company specializing in memorable experiences.'
     },
     {
-      name: 'Glamour Studios',
+      name: 'Flowery Hues',
       logo: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
           <circle cx="12" cy="12" r="10" strokeWidth="2"/>

@@ -21,7 +21,7 @@ const Sponsors = () => {
           <circle cx="12" cy="12" r="2" fill="currentColor"/>
         </svg>
       ),
-      description: 'Leading photography and videography studio capturing life\'s most precious moments.'
+      description: 'Define your style and express your essence. Flowery Hues offers unique fragrances for an unforgettable evening.'
     }
   ];
 

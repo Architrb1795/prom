@@ -95,6 +95,15 @@ const FAQ = () => {
             <a href="#pricing">Pricing</a>
             <a href="#faq">FAQ</a>
           </div>
+          <div className="footer-contact">
+  <h4 className="contact-title">Have a Question?</h4>
+  <p className="contact-text">
+    For any queries or sponsorship details, feel free to reach out to us.
+  </p>
+  <a href="mailto:promnight.contact@example.com" className="contact-email">
+    promnight.contact@example.com
+  </a>
+</div>
           <p className="footer-copyright">
             © 2025 Prom Night 2025. All rights reserved.
           </p>

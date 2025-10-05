@@ -34,7 +34,7 @@ const Activities = () => {
         </svg>
       ),
       title: 'Food & Refreshments',
-      description: 'Refuel and recharge throughout the night with a variety of delicious food items and snacks available at the venue.'
+      description: 'Indulge in a delectable spread designed to delight every palate. Our menu includes a rich variety of savory vegetarian and non-vegetarian options, capped off with an exquisite selection of desserts.'
     },
     {
       icon: (

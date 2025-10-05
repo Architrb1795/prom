@@ -86,7 +86,7 @@ const FAQ = () => {
 
       <footer className="footer">
         <div className="footer-content">
-          <div className="footer-logo">Prom 2025</div>
+          <div className="footer-logo">Prom Night 2025</div>
           <p className="footer-text">
             An evening of elegance, entertainment, and unforgettable memories
           </p>

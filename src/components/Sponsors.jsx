@@ -12,7 +12,7 @@ const Sponsors = () => {
     {
       name: 'Flowery Hues',
       // The 'logo' property is now the URL to the image
-      logo: 'https://i.postimg.cc/6qHM582K/Test-Logo.png',
+      logo: 'https://i.postimg.cc/MGTHg0v0/Flowery-Hues-Logo.png',
       description: 'Define your style and express your essence. Flowery Hues offers unique fragrances for an unforgettable evening.'
     }
   ];

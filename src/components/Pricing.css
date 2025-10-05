@@ -211,7 +211,7 @@
 
 .old-price-strike {
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 500;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: line-through; /* This adds the strikethrough */
   margin-right: 5px;

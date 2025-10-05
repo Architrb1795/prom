@@ -21,7 +21,6 @@ const Pricing = () => {
               <div className="old-pricing-amount">
                 <span className="currency">₹</span>
                 <span className="old-price-strike">649</span>
-                <span className="per-person-strike">per person</span>
               </div>
               <div className="pricing-amount">
                 <span className="currency">₹</span>

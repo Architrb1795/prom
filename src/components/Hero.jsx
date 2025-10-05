@@ -61,7 +61,7 @@ const Hero = ({ onBookNow }) => {
 </a>
   </div>
 </div>
-        <div className="hero-badge">IIT Roorkee Presents</div>
+        <div className="hero-badge">You're Invited To</div>
         <h1 className="hero-title">
           Prom Night
           <span className="hero-year">2025</span>

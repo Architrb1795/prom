@@ -46,7 +46,7 @@ const Hero = ({ onBookNow }) => {
   target="_blank" 
   rel="noopener noreferrer"
 >
-  <img src="https://i.postimg.cc/wTpqh3rH/Pindi-Bowl-Logo.png" alt="Pindi Bowl Logo" />
+  <img src="https://i.postimg.cc/3JxwkCF6/Pindi-Bowl-Logo.png" alt="Pindi Bowl Logo" />
   Pindi Bowl
 </a>
 

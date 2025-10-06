@@ -6,6 +6,7 @@ import BookingForm from './components/BookingForm';
 import FAQ from './components/FAQ';
 import Sponsors from './components/Sponsors';
 import Socials from './components/Socials';
+import Guidelines from './components/Guidelines';
 import './App.css';
 
 function App() {

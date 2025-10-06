@@ -1,0 +1,57 @@
+.guidelines {
+  padding: 4rem 2rem;
+  background-color: #0a0a0a; /* Dark background */
+}
+
+.guidelines-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.guidelines-title {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  background: linear-gradient(135deg, #ffffff 0%, #ff69b4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.guideline-section {
+  margin-bottom: 2.5rem;
+}
+
+.guideline-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ff69b4; /* Pink accent color */
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 105, 180, 0.3);
+}
+
+.guideline-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.guideline-item {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.8;
+  padding-left: 1.5rem;
+  position: relative;
+  margin-bottom: 0.75rem;
+}
+
+/* Adds a custom bullet point for a clean look */
+.guideline-item::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ff69b4;
+  font-weight: bold;
+}

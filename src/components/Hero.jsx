@@ -46,7 +46,7 @@ const Hero = ({ onBookNow }) => {
   target="_blank" 
   rel="noopener noreferrer"
 >
-  <img src="public/pindibowllogo.png" alt="Pindi Bowl Logo" />
+  <img src="/pindibowllogo.png" alt="Pindi Bowl Logo" />
   Pindi Bowl
 </a>
 
@@ -57,7 +57,7 @@ const Hero = ({ onBookNow }) => {
   rel="noopener noreferrer"
 >
   Flowery Hues
-  <img src="public/floweryhueslogo.png" alt="Flowery Hues Logo" />
+  <img src="/floweryhueslogo.png" alt="Flowery Hues Logo" />
 </a>
   </div>
 </div>

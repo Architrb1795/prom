@@ -84,6 +84,10 @@ const Pricing = () => {
             </a>
           </div>
         </div>
+        <div className="deadline-notice">
+          <h3 className="deadline-title">Deadline to Book: 9th October!</h3>
+          <p className="deadline-subtitle">Limited slots are available so book as soon as possible.</p>
+        </div>
       </div>
     </section>
   );

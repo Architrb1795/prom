@@ -43,12 +43,14 @@ const Guidelines = () => {
 
         <div className="guideline-section">
           <h3 className="guideline-subtitle">Contact</h3>
-          <ul className="guideline-list">
-            <li className="guideline-item">For any questions or clarifications, please contact the Prom Committee at</li>
-            <a href="mailto:promnight.contact@example.com" className="contact-emai">
-    prom2025iitr@gmail.com
-  </a>
-          </ul>
+         <ul className="guideline-list">
+  <li className="guideline-item">
+    For any questions or clarifications, please contact the Prom Committee at{' '}
+    <a href="mailto:prom2025iitr@gmail.com" className="contact-email">
+      prom2025iitr@gmail.com
+    </a>.
+  </li>
+</ul>
         </div>
       </div>
     </section>

@@ -20,6 +20,7 @@ function App() {
       <FAQ />
       <Sponsors />
       <Socials />
+      <Guidelines />
 
       {showBookingForm && (
         <BookingForm onClose={() => setShowBookingForm(false)} />

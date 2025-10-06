@@ -253,27 +253,45 @@
 
 .deadline-notice {
   text-align: center;
-  margin-top: 4rem; /* Space below the pricing card */
-  padding: 1.5rem;
-  background: rgba(255, 105, 180, 0.1); /* Subtle pink background */
-  border: 1px solid rgba(255, 105, 180, 0.3);
-  border-radius: 16px;
-  max-width: 500px; /* Matches the width of your card */
+  margin-top: 4rem;
+  margin-bottom: 0; /* REMOVED SPACE BELOW */
+  padding: 2rem; /* Increased padding for more presence */
+  background: linear-gradient(135deg, rgba(255, 105, 180, 0.2) 0%, rgba(255, 204, 0, 0.1) 100%); /* A more vibrant gradient */
+  border: 2px solid #ffcc00; /* Thicker, attention-grabbing border */
+  border-radius: 20px; /* Slightly more rounded */
+  max-width: 550px; /* Slightly wider */
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 0 30px rgba(255, 204, 0, 0.4); /* Glowing effect */
+  animation: pulseBorder 2s infinite alternate; /* Pulsing animation for the border */
 }
 
+@keyframes pulseBorder {
+  from {
+    border-color: #ffcc00;
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.3);
+  }
+  to {
+    border-color: #ff8fd4; /* Pulse to a pinkish hue */
+    box-shadow: 0 0 40px rgba(255, 105, 180, 0.5);
+  }
+}
+
+
 .deadline-title {
-  font-size: 1.75rem; /* Big font size */
-  font-weight: 700;   /* Bold */
-  color: #ffcc00;      /* Bright yellow/gold to grab attention */
+  font-size: clamp(1.8rem, 4vw, 2.5rem); /* Larger and responsive */
+  font-weight: 800;   /* Extra Bold */
+  color: #ffcc00;      /* Still bright yellow, but more dominant */
   text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 0.5rem;
+  letter-spacing: 2px; /* More spacing for impact */
+  margin-bottom: 0.75rem;
+  text-shadow: 0 0 10px rgba(255, 204, 0, 0.6); /* Text glow */
 }
 
 .deadline-subtitle {
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem; /* Slightly larger */
+  color: #ffffff; /* White for better contrast */
+  font-weight: 500;
   margin: 0;
+  line-height: 1.4;
 }

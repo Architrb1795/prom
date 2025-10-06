@@ -55,3 +55,10 @@
   color: #ff69b4;
   font-weight: bold;
 }
+
+.contact-email {
+  display: inline; /* This keeps it on the same line as the text */
+  color: #ff69b4;   /* Your theme's pink color */
+  text-decoration: none;
+  font-weight: 500;
+}

@@ -250,3 +250,30 @@
 }
 
 /* --- END: OFFER STYLES --- */
+
+.deadline-notice {
+  text-align: center;
+  margin-top: 4rem; /* Space below the pricing card */
+  padding: 1.5rem;
+  background: rgba(255, 105, 180, 0.1); /* Subtle pink background */
+  border: 1px solid rgba(255, 105, 180, 0.3);
+  border-radius: 16px;
+  max-width: 500px; /* Matches the width of your card */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.deadline-title {
+  font-size: 1.75rem; /* Big font size */
+  font-weight: 700;   /* Bold */
+  color: #ffcc00;      /* Bright yellow/gold to grab attention */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.deadline-subtitle {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}

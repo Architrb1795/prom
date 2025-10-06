@@ -6,8 +6,8 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: 'Is there a deadline for booking tickets?',
-      answer: 'While there is no strict deadline, tickets are limited and are being sold on a first-come, first-served basis. We expect the slots to fill up very quickly, so we highly recommend you book your tickets as soon as possible to avoid disappointment.'
+      question: 'I have paid but haven\'t received a confirmation. What should I do?',
+      answer: 'Please send us a direct message (DM) on Instagram or email us using the contact details mentioned below. To help us resolve this quickly, please include your full name and transaction ID in your message.'
     },
     {
       question: 'What time should I arrive at the venue?',

@@ -6,7 +6,7 @@ const Sponsors = () => {
     {
       name: 'The Pindi Bowl',
       // The 'logo' property is now the URL to the image
-      logo: 'public/Pindi Bowl Logo.png',
+      logo: 'public/pindibowllogo.png',
       description: 'Specializing in a wide array of savory bowl cuisines, ensuring every meal is served with passion and love.'
     },
     {

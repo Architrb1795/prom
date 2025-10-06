@@ -6,13 +6,13 @@ const Sponsors = () => {
     {
       name: 'The Pindi Bowl',
       // The 'logo' property is now the URL to the image
-      logo: 'public/pindibowllogo.png',
+      logo: '/pindibowllogo.png',
       description: 'Specializing in a wide array of savory bowl cuisines, ensuring every meal is served with passion and love.'
     },
     {
       name: 'Flowery Hues',
       // The 'logo' property is now the URL to the image
-      logo: 'public/floweryhueslogo.png',
+      logo: '/floweryhueslogo.png',
       description: 'Define your style and express your essence. Flowery Hues offers unique fragrances for an unforgettable evening.'
     }
   ];

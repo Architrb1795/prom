@@ -81,7 +81,7 @@ const Activities = () => {
       <div className="activities-container">
         <div className="activities-visual">
           <img
-            src="public/peopledancing.png"
+            src="/peopledancing.png"
             alt="Prom celebration"
             className="activities-image"
           />

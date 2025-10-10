@@ -81,7 +81,7 @@ const Pricing = () => {
           </div>
         </div>
         <div className="deadline-notice">
-          <h3 className="deadline-title">Deadline Has Been Extended!</h3>
+          <h3 className="deadline-title">Deadline Has Been Extended Till Sunday, 9th October!</h3>
           <p className="deadline-subtitle">Limited slots are available so book as soon as possible.</p>
         </div>
       </div>

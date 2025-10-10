@@ -5,12 +5,14 @@ const Pricing = () => {
   return (
     <section className="pricing" id="pricing">
       <div className="pricing-container">
+        {/* --- THIS SECTION HAS BEEN EDITED --- */}
         <div className="pricing-header">
-          <h2 className="pricing-title">Reserve Your Spot</h2>
+          <h2 className="pricing-title">Your Last Chance for Prom Night</h2>
           <p className="pricing-subtitle">
-            Limited seats available. Book now to secure your place at the most awaited event of the year
+            Slots are almost full! This is your final opportunity to join an unforgettable night of elegance and entertainment.
           </p>
         </div>
+        {/* --- END OF EDITED SECTION --- */}
 
         <div className="pricing-cards">
           <div className="pricing-card featured">
@@ -18,13 +20,11 @@ const Pricing = () => {
 
             {/* Offer Price Section */}
             <div className="offer-section">
-              
               <div className="pricing-amount">
                 <span className="currency">₹</span>
                 <span className="price">599</span>
                 <span className="per-person">per person</span>
               </div>
-              
             </div>
 
             {/* Updated Couple Price */}

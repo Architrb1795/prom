@@ -18,18 +18,22 @@ const Pricing = () => {
 
             {/* Offer Price Section */}
             <div className="offer-section">
-              
-              <div className="pricing-amount">
+              <div className="old-pricing-amount">
                 <span className="currency">₹</span>
-                <span className="price">599</span>
+                <span className="old-price-strike">649</span>
                 <span className="per-person">per person</span>
               </div>
-              
+              <div className="pricing-amount">
+                <span className="currency">₹</span>
+                <span className="price">549</span>
+                <span className="per-person">per person</span>
+              </div>
+              <div className="offer-text">For the first 30 couples only!</div>
             </div>
 
             {/* Updated Couple Price */}
             <div className="couple-price">
-              <span className="new-couple-price"> ₹1199 for couple</span>
+              <span className="new-couple-price"> ₹1099 for couple</span>
             </div>
 
             <ul className="pricing-features">
@@ -81,8 +85,8 @@ const Pricing = () => {
           </div>
         </div>
         <div className="deadline-notice">
-          <h3 className="deadline-title">Deadline Extended: Sunday, October 12th!</h3>
-          <p className="deadline-subtitle">Limited spots remain. Book now before it's too late again.</p>
+          <h3 className="deadline-title">Deadline to Book: 9th October!</h3>
+          <p className="deadline-subtitle">Limited slots are available so book as soon as possible.</p>
         </div>
       </div>
     </section>
